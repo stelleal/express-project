@@ -1,5 +1,8 @@
+const path = require('path');
+
 function getMessages(req, res) {
-	res.send('<ul><li>Hi Midori!</li></ul>');
+	res.sendFile(path.join(__dirname, '..', 'public', 'skimountain.jpg'));
+	// res.send('<ul><li>Hi Midori!</li></ul>');
 }
 
 function postMessage(req, res) {
@@ -7,6 +10,6 @@ function postMessage(req, res) {
 }
 
 module.exports = {
-  getMessages,
-  postMessage,
+	getMessages,
+	postMessage,
 };
