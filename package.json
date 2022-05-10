@@ -19,7 +19,8 @@
 	},
 	"homepage": "https://github.com/stelleal/express-project#readme",
 	"dependencies": {
-		"express": "^4.18.1"
+		"express": "^4.18.1",
+		"hbs": "^4.2.0"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.16"
